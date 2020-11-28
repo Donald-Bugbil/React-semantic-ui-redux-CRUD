@@ -16,7 +16,7 @@ export const deleteNote = meta =>{
 export const editNote = (header, updateNote) =>{
     return {
         type: 'EDIT_NOTE',
-        meta: header,
+        header: header,
         updateNote: updateNote
     }
 }

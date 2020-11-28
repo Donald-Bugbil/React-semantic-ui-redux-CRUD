@@ -28,7 +28,7 @@ class EditNote extends React.Component {
             description: this.state.description
         }
 
-        const header = this.props.match.params.meta
+        const header = this.props.match.params.header
 
         this.props.editNote(header, note)
 
